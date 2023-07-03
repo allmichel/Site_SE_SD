@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Chat Simultâneo utilizando Raspberry</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Proj final<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Início</a></li><!--aqui vai ser inicio-->
+          <li><a href="#about">Resumo</a></li>
+          <li><a href="#services">Conceitos estudados</a></li>
+          <li><a href="#team">Equipe</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Chat Simultâneo utilizando Arquitetura Cliente/Servidor com Raspberry Pi </span></h2>
+          <p>Este projeto foi criado para a disciplina de Sistemas Dsitribuídos e Sistemas Embarcados, com foco em criar um chat
+             entre 2 clientes usando um raspberry Pi como servidor.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started">Vamos Começar!</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Veja nosso video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="assets/img/hero-img.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-easel"></i></div>
+              <h4 class="title"><a href="assets/img/Apresentação de Portfólio Tecnologia Moderno Azul Branco.pdf" class="stretched-link">Apresentação</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-file-earmark-text"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Documentação</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-github"></i></div>
+              <h4 class="title"><a href="https://github.com/allmichel/proj_final_SD_SE" class="stretched-link">GitHub</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-youtube"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Youtube</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+        <!-- ======= About Us Section ======= -->
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-header">
+              <h2>Resumo</h2>
+              <p class="text-lg-start">
+                O objetivo deste trabalho é implementar sistemas distribuídos e embarcados usando o Raspberry Pi 3B, visando estabelecer uma
+                comunicação cliente/servidor. Por meio desse projeto, busca-se adquirir conhecimento e compreensão sobre o funcionamento dessa
+                comunicação e explorar as capacidades do Raspberry Pi como servidor nesse contexto. Essa iniciativa permitirá aprofundar o entendimento
+                sobre o tema e estudar o comportamento e o desempenho do Raspberry Pi como servidor.  
+                Palavras Chave: Raspberry, Cliente/Servidor, Sistema distribuídos, Sistema embarcados ;  
+              </p>
+            </div>
+    
+          </div>
+        </section><!-- End About Us Section -->
+
+    <!-- ======= Our Services Section ======= -->
+    <section id="services" class="services sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Conceitos estudados</h2>
+          <p>Aqui você encontra todos os conceitos estudados para formentar o projeto.</p>
+        </div>
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item  position-relative">
+              
+              <h3>Sistemas Distribuídos</h3>
+              <p>
+                um sistema distribuído é aquele em que os componentes localizados em computadores conectados em rede se comunicam e coordenam suas
+                ações exclusivamente por meio de troca de mensagens. Essa definição leva a três características especialmente importantes
+                dos sistemas distribuídos: concorrência entre os componentes, ausência de um relógio global compartilhado e a possibilidade
+                de falhas em componentes independentes.
+
+              </p>
+              <a href="#" class="readmore stretched-link">Leia mais <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              
+              <h3>Rede Cliente-Servidor</h3>
+              <p>
+                Nessa rede, um servidor central gerencia e controla os recursos compartilhados, enquanto os clientes se conectam ao
+                servidor para acessá-los. A comunicação entre eles é baseada em trocas de mensagens, em que o cliente envia solicitações
+                e o servidor responde com as informações solicitadas. 
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>Protocolo TCP/IP</h3>
+              <p>O TCP/IP é um conjunto de protocolos de comunicação usado para conectar dispositivos em redes de computadores.
+                Ele consiste em dois protocolos principais: o TCP, que garante a entrega confiável e ordenada dos dados, e o IP,
+                responsável pelo endereçamento e roteamento dos pacotes na rede. O TCP/IP opera em camadas, seguindo o modelo OSI.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>Sockets</h3>
+              <p>
+                Socket é uma abstração de software que permite a comunicação entre processos através de uma rede. Em termos simples,
+                um socket é um ponto final de comunicação que possibilita o envio e o recebimento de dados entre dispositivos conectados em uma rede.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>Log</h3>
+              <p>Os logs de sistema são registros detalhados de eventos e atividades em um sistema de computador. Eles desempenham um papel crucial
+                na monitoração, análise de desempenho, detecção de problemas e investigação de ameaças de segurança.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>Threads</h3>
+              <p>
+                Threads são unidades básicas de execução dentro de um programa. Elas permitem a execução simultânea de diferentes partes do programa
+                dentro de um único processo, melhorando a eficiência e o desempenho. 
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>Python</h3>
+              <p>
+                Python é uma linguagem de programação de alto nível, amplamente utilizada em diversas áreas de desenvolvimento de software. Ela se destaca
+                por sua simplicidade, legibilidade e pela vasta quantidade de bibliotecas e frameworks disponíveis. 
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>Sistemas Embarcados</h3>
+              <p>Os sistemas embarcados são sistemas computacionais dedicados a realizar tarefas específicas em dispositivos eletrônicos. Eles são construídos
+                com hardware e software personalizados para atender aos requisitos do dispositivo.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>Microprocessadores</h3>
+              <p>
+                Microprocessadores são componentes eletrônicos que integram uma unidade central de processamento (CPU) em um único chip. Eles executam instruções
+                e operações aritméticas, controlando o funcionamento de um sistema digital.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>RISC</h3>
+              <p>
+                A arquitetura RISC (Reduced Instruction Set Computing) é um paradigma de projeto de processadores que se baseia na simplicidade e eficiência.
+                Ao contrário da arquitetura CISC (Complex Instruction Set Computing), a RISC utiliza um conjunto reduzido de instruções altamente otimizadas. 
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>ARM</h3>
+              <p>
+                A arquitetura ARM (Advanced RISC Machine) é uma arquitetura de processador  amplamente utilizada em dispositivos móveis, sistemas embarcados
+                e outros dispositivos de baixo consumo de energia. Esta arquitetura foi desenvolvida pela empresa britânica ARM Holdings e tem sido um dos 
+                principais impulsionadores da inovação tecnológica nas últimas décadas;
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <h3>Raspberry Pi</h3>
+              <p>
+                O Raspberry Pi é um microcomputador completo, com seus componentes em uma única placa lógica. Há o processador, a memória RAM e a placa de vídeo
+                impressos, e entradas USB, HDMI, áudio e vídeo composto, para câmera e telas LCD e uma GPIO, com pinos I/O de múltiplo propósito.
+              </p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Services Section -->
+
+
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Equipe</h2>
+          <!--add -->
+          <p>Equipe de alunos da UFC - Universidade Federal do Ceará responsáveis por realizar o projeto final das Disciplinas de Sistemas Embarcados e Sistemas Distribídos. 
+            Ambas ministradas pelo <a href="https://www.linkedin.com/in/jstoquica/">Prof. Juan Sebastian Toquica Arenas</a>.</p>
+        </div>
+
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <h4>Allan Michel</h4>
+              <!--<span>Web Development</span>-->
+              <div class="social">
+                <a href="https://github.com/allmichel"><i class="bi bi-github"></i></a>
+                <a href="https://www.instagram.com/allmichel_/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/allmichel/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <h4>Antonio Filipe</h4>
+              <!--<span>Marketing</span>  -->
+              <div class="social">
+                <a href="https://github.com/sousafilp"><i class="bi bi-github"></i></a>
+                <a href="https://www.instagram.com/sousafilp/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/team-3.png" class="img-fluid" alt="">
+              <h4>Pedro Jonnathan</h4>
+              <!--<span>Content</span>-->
+              <div class="social">
+                <a href="https://github.com/pjonnathan"><i class="bi bi-github"></i></a>
+                <a href="https://www.instagram.com/_pjsousa/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pedro-jonnathan-b070a1265/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+
+   
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
